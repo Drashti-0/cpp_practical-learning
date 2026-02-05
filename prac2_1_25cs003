@@ -1,0 +1,61 @@
+#include<iostream>
+using namespacestd;
+
+class rectangel{
+   private:
+   double length;
+   double width;
+
+   public:
+
+   double area(double l,double w){
+     return l*w;
+   }
+
+   double perimeter(double l,double w){
+      return 2*(l+w);
+    
+   } 
+
+   void display(int index){
+
+    cout<<"Index is = "<<index<<endl;
+    cout<<"Area is = "<<area<<endl;
+    cout<<"perimeter is = "<<perimeter<<endl;
+
+   }
+
+
+};
+int main(){
+    rectangel rec[10];
+    int choise;
+    int count=0;
+
+    do{
+        cout<<"1.add rectangle"<<endl;
+        cout<<"2.update rectangle"<<endl;
+        cout<<"3.Display rectangle"<<endl;
+        cout<<"4.Exit"<<endl;
+
+        cout<<"Enter your choise: "<<endl;
+        cin>>choise;
+[]
+        if(choise==1){
+            if(count<10){
+                 cout<<"Enter your rec. length AND width"<<endl;
+                 cin>>l,w;
+
+                 
+
+            }
+
+
+        }
+        
+
+    }
+    while(choise!=4);
+
+    cout<<"THank you using systeam !!"<<endl;
+}
