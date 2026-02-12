@@ -6,7 +6,7 @@ class store
 private:
     int id;
     string name;
-    double price;
+    float price;
     int stock;
 
 public:
@@ -18,7 +18,7 @@ public:
         stock = 5;
     }
 
-    store(int uid,string uname, double uprice, int ustock)
+    store(int uid,string uname, float uprice, int ustock)
     {
         id = uid;
         name = uname;
